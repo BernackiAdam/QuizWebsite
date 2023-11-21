@@ -1,0 +1,30 @@
+-git clone link_do_folderu_githuba - pozwala na swtworzenie folderu w explorerze zawierającego repozytorium z GitHuba
+przyklad: git clone https://github.com/BernackiAdam/QuizWebsite.git
+
+- git status - pozwala na sprawdzenie statusu plików w folderze juz pobranym na dysk z GitHuba. Można to zrobic będąc
+w ścieżce folderu. 
+przyklad: git status (dla folderu QuizWebsite będąc w ścieżce PS C:\Users\abern\OneDrive\Vis\JS\QuizWebsite )
+
+- git add - pozwala na dodanie nowych plików do folderu repozytorium. Można dodac pojedyncze pliki za pomoca wpisania ich
+nazw do terminala lub ze znacznikiem "." w celu dodania do repozytorium wszystkich plików znajdujących się w obrębie foldera.
+Ta komenda nie aktualizuje repozytorium tylko powoduje że są one rozpoznawalne przez git.
+Przyklad: git add .
+
+- git commit -m "Message" -m "description" - powoduje zatwierdzenie zmian dokonanych w plikach. Należy w tym przypadku dodać
+tytuł zmian oraz ich opis.
+Przyklad: git commit -m "dodano pliki html js oraz css" -m "sluza one do obslugi stronki z quizzem"
+
+- git push - powoduje zaktualizowanie repozytorium online o pozycje wczesniej zatwierdzone
+
+Dla folderów ktore mają pojawic się w repozytorium
+
+- git init - w celu zainicjalizowania pustego repozytorium. Mozna to wykonać będąc 
+Przykład: git init
+
+- git remote add origin link_do_repozytorium - pozwala na umieszczenie wczesniej stworzonego folderu na umieszczenie go 
+w repozytorium
+
+- git remote -v - pozwala na sprawdzenie w ktorym miejscu w repozytorium znajduje się folder
+
+- git push -u origin master - wprowadza sie po to zeby w przyszlosci moc wprowadzac pliki i foldery do repozytorium 
+za pomocą komendy git push bez dopisywania origin master
