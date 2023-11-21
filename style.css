@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, Arial;
+    margin: 0;
+    background-color: #dadada65;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10%;
+    font-family: Roboto,Arial;
+
+}
+.quizz-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    align-items: center;
+    line-height: 6vh;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.505);
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+button{
+    width: 100%;
+    height: 9vh;
+    border: none;
+    background-color: rgb(63, 63, 255);
+    color: white;
+    font-size: 3vh;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgba(63, 63, 255,0.85);
+}
+.quizz-header{
+    padding: 2rem;
+    width: 100%;
+    margin: 0;
+}
+ul{
+    margin: 2vh 0 1vh 3vh;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 0px;
+}
+li{
+    list-style-type: none;
+}
+ul li label{
+    cursor: pointer;
+}
